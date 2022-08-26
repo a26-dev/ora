@@ -14,7 +14,7 @@
   </head>
   <body>
     <main class="container column">
-      <div class="row gap">
+      <div id="periods-form" class="row gap padding">
         <input type="time" id="start-time" name="start-time" required />
         <input type="time" id="end-time" name="end-time" required />
         <button id="btn-add">+</button>
@@ -22,7 +22,7 @@
 
       <ul id="periods-list" class="column gap padding"></ul>
 
-      <p>Total: <span id="total-time">00:00</p></p>
+      <p class="padding">Total: <span id="total-time">00:00</span> h</p>
     </main>
   </body>
 </html>
