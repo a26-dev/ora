@@ -1,0 +1,43 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  --size: 4mm;
+  --size-half: calc(var(--size) / 2);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: var(--size);
+}
+
+.column, .row {
+  display: flex;
+  list-style: none;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.gap {
+  gap: var(--size-half);
+}
+
+.padding {
+  padding: var(--size-half);
+}

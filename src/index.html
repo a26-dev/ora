@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <title>ContaTempo</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="container column">
+      <div class="row gap">
+        <input type="time" id="start-time" name="start-time" required />
+        <input type="time" id="end-time" name="end-time" required />
+        <button id="btn-add">+</button>
+      </div>
+
+      <ul id="periods-list" class="column gap padding"></ul>
+
+      <p id="total-time">00:00</p>
+    </main>
+  </body>
+</html>
